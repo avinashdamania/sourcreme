@@ -1,7 +1,64 @@
-h2 {
+.title {
+	padding-top: 50px;
 	text-align: center;
 }
 
-p {
-	text-align: center;
+.navbar {
+	overflow: hidden;
+	background-color: #000000;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin-bottom: 30px;
 }
+
+.navbar a {
+	float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.main {
+	background-color: #019948;
+}
+
+.clothingTitle {
+	padding-top: 50px;
+}
+
+/*
+#shirts {
+	padding-top: 30px;
+	background-color: #019948;
+}
+
+#sweatshirts {
+	padding-top: 30px;
+	background-color: #019948;
+}
+
+#jackets {
+	padding-top: 30px;
+	background-color: #019948;
+}
+
+#accessories {
+	padding-top: 30px;
+	background-color: #019948;
+}
+
+#contact {
+	padding-top: 30px;
+}
+
+#about {
+	padding-top: 30px;
+}*/
