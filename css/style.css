@@ -26,9 +26,7 @@
     color: black;
 }
 
-.main {
-	background-color: #019948;
-}
+
 
 .clothingTitle {
 	padding-top: 50px;
@@ -36,10 +34,45 @@
 
 
 .clothingItem {
-	display: inline-block;
-	width: 15%;
-	margin: 6%;
+	margin: 10px;
 }
+
+.clothingImage {
+	max-width: 225px;
+	max-height: 225px;
+	width: auto;
+	height: auto;
+	margin: 10px;
+}
+
+.clothingContainer {
+	display: grid;
+  	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  	grid-gap: 10px;
+  	margin: 5%;
+}
+
+
+
+
+/*sideways scrolling menu*/
+div.scrollmenu {
+    background-color: #019948;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu img {
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+}
+
+div.scrollmenu img:hover {
+    background-color: white;
+}
+
+
 
 
 /*
