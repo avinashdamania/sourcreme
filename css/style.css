@@ -34,6 +34,14 @@
 	padding-top: 50px;
 }
 
+
+.clothingItem {
+	display: inline-block;
+	width: 15%;
+	margin: 6%;
+}
+
+
 /*
 #shirts {
 	padding-top: 30px;
