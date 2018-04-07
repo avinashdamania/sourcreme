@@ -1,6 +1,22 @@
 .title {
 	padding-top: 50px;
 	text-align: center;
+
+}
+
+html {
+	background-image: url("https://www.seriouseats.com/images/2015/09/20150923-sour-cream-primary.jpg");
+	height: 100%;
+	background-position: 0px -5px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.sourcremetitle {
+	font-size: 100px;
 }
 
 .navbar {
