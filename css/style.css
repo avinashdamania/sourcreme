@@ -21,11 +21,12 @@ html {
 
 .navbar {
 	overflow: hidden;
-	background-color: #000000;
+	background-color: black;
 	position: fixed;
 	top: 0;
+	margin-left: -8px;
 	width: 100%;
-	margin-bottom: 30px;
+	margin-bottom: 100px;
 }
 
 .navbar a {
@@ -46,6 +47,8 @@ html {
 
 .clothingTitle {
 	padding-top: 50px;
+	text-align: center;
+	font-size: 75px;
 }
 
 
@@ -73,9 +76,11 @@ html {
 
 /*sideways scrolling menu*/
 div.scrollmenu {
-    background-color: #019948;
+    background-color: #000000;
     overflow: auto;
     white-space: nowrap;
+    width: 97%;
+    margin: auto;
 }
 
 div.scrollmenu img {
@@ -87,35 +92,3 @@ div.scrollmenu img {
 div.scrollmenu img:hover {
     background-color: white;
 }
-
-
-
-
-/*
-#shirts {
-	padding-top: 30px;
-	background-color: #019948;
-}
-
-#sweatshirts {
-	padding-top: 30px;
-	background-color: #019948;
-}
-
-#jackets {
-	padding-top: 30px;
-	background-color: #019948;
-}
-
-#accessories {
-	padding-top: 30px;
-	background-color: #019948;
-}
-
-#contact {
-	padding-top: 30px;
-}
-
-#about {
-	padding-top: 30px;
-}*/
