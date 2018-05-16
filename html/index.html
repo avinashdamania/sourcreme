@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
 <head>
 	<link href="../css/style.css" type="text/css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 	<script src="../js/script.js"></script>
+	<script src="../js/angularapp.js"></script>
 	<title>sourcreme.</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,6 +17,11 @@
   		<a href="#jackets">jackets</a>
   		<a href="#accessories">accessories</a>
   		<a href="#contact">contact</a>
+  		
+	</div>
+
+	<div class="navbar2" ng-controller="myCtrl">
+		<a href="">{{date | date:'hh:mm:ss a, dd/MM/yyyy'}}</a>
 	</div>
 
 	<div class="title">
